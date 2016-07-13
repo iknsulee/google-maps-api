@@ -16,7 +16,7 @@
         };
         return Mapster;
     }());
-  
+
     Mapster.create = function (element, opts) {
         return new Mapster(element, opts);
     };
